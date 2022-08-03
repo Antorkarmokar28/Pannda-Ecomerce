@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Panda-Ecomerce</title>
+    <!-- fontawsome cdn -->
+    <script src="https://kit.fontawesome.com/52d4052aca.js" crossorigin="anonymous"></script>
     <!-- bootstrap css cdn -->
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
     <!-- custom css cdn -->
@@ -15,14 +17,15 @@
     <main>
         <!-- header section start -->
         <header>
-            <nav class="navbar navbar-expand-lg bg-light">
+            <!-- navigation menu start -->
+            <nav class="navbar navbar-expand-lg bg-light shadow sticky-top">
                 <div class="container">
                   <a class="navbar-brand" href="#"><img src="./assets/images/logo.png" alt=""></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ms-auto">
                       <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                       </li>
@@ -38,7 +41,69 @@
                     </ul>
                   </div>
                 </div>
-              </nav>
+            </nav>
+            <!-- navigation menu end -->
+            <!-- banner slider section start -->
+            <section class="slider">
+                <div id="carouselExampleControls" class="carousel slide"        data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active slider-bg p-5">
+                        <div class="row">
+                            <div class="col-md-7 d-flex align-items-center">
+                                <div class="content">
+                                    <h1 class="fw-bold">Cool Dude Headphone</h1>
+                                    <p class="fs-5">This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
+                                    <h1>$250</h1>
+                                    <button class="btn btn-extra-bg btn-color mt-3">Buy Now</button>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="./assets/images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item active slider-bg p-5">
+                        <div class="row">
+                            <div class="col-md-7 d-flex align-items-center">
+                                <div class="content">
+                                    <h1 class="fw-bold">Mega LCD TV For Sports</h1>
+                                    <p class="fs-5">This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
+                                    <h1>$420</h1>
+                                    <button class="btn btn-extra-bg btn-color mt-3">Buy Now</button>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="./assets/images/banner-images/tv.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item active slider-bg p-5">
+                        <div class="row">
+                            <div class="col-md-7 d-flex align-items-center">
+                                <div class="content">
+                                    <h1 class="fw-bold">X-Box for your living room</h1>
+                                    <p class="fs-5">This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
+                                    <h1>$600</h1>
+                                    <button class="btn btn-extra-bg btn-color mt-3">Buy Now</button>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="./assets/images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </section>
+            <!-- banner slider section end -->
         </header>
         <!-- header section end -->
     </main>
