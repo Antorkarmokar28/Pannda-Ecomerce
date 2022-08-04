@@ -4,6 +4,9 @@
 .btn-extra-bg{
     background:#FF589B;
 }
+.btn-extra-bg:hover{
+    background:#FF589B;
+}
 .btn-color{
     color:#FFFFFF;
 }
