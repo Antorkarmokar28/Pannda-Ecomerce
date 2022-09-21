@@ -142,7 +142,7 @@
           <div class="container my-5">
             <h1>Shoes</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-              <div class="col">
+              <div id="products" class="col">
                 <div class="card border border-0 shadow-lg h-100">
                   <img src="./assets/images/shoes/shoe-1.png" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -151,11 +151,11 @@
                   </div>
                   <div class="m-4">
                     <h2 class="mb-3">$180</h2>
-                    <button class="btn btn-extra-bg text-light">Buy Now</button>
+                    <button id="buy-now" class="btn btn-extra-bg text-light">Buy Now</button>
                   </div>
                 </div>
               </div>
-              <div class="col">
+              <div id="products" class="col">
                 <div class="card border border-0 shadow-lg h-100">
                   <img src="./assets/images/shoes/shoe-2.png" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -164,11 +164,11 @@
                   </div>
                   <div class="m-4">
                     <h2 class="mb-3">$160</h2>
-                    <button class="btn btn-extra-bg text-light">Buy Now</button>
+                    <button id="buy-now" class="btn btn-extra-bg text-light">Buy Now</button>
                   </div>
                 </div>
               </div>
-              <div class="col">
+              <div id="products" class="col">
                 <div class="card border border-0 shadow-lg h-100">
                   <img src="./assets/images/shoes/shoe-3.png" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -177,7 +177,7 @@
                   </div>
                   <div class="m-4">
                     <h2 class="mb-3">$130</h2>
-                    <button class="btn btn-extra-bg text-light">Buy Now</button>
+                    <button id="buy-now" class="btn btn-extra-bg text-light">Buy Now</button>
                   </div>
                 </div>
               </div>
@@ -186,7 +186,7 @@
         </section>
         <!-- shoes section end -->
         <!-- backpack section start -->
-        <section class="backpack" id="backpack">
+        <section id="backpacks" class="backpack pb-2" id="backpack">
           <div class="container my-5">
             <h1>Backpack</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
@@ -199,7 +199,7 @@
                   </div>
                   <div class="m-4">
                     <h2 class="my-3">$101</h2>
-                    <button class="btn btn-extra-bg text-light">Buy Now</button>
+                    <button onclick=" removeProduct()" class="btn by-now btn-extra-bg text-light">Buy Now</button>
                   </div>
                 </div>
               </div>
@@ -212,7 +212,7 @@
                   </div>
                   <div class="m-4">
                     <h2 class="my-3">$99</h2>
-                    <button class="btn btn-extra-bg text-light">Buy Now</button>
+                    <button onclick="removeProduct()" class="btn btn-extra-bg text-light">Buy Now</button>
                   </div>
                 </div>
               </div>
@@ -225,7 +225,7 @@
                   </div>
                   <div class="m-4">
                     <h2 class="my-3">$90</h2>
-                    <button class="btn btn-extra-bg text-light">Buy Now</button>
+                    <button onclick="removeProduct()" class="btn btn-extra-bg text-light">Buy Now</button>
                   </div>
                 </div>
               </div>
@@ -234,7 +234,7 @@
         </section>
         <!-- backpack section start -->
         <section class="subscribe-now my-5" id="subscribe">
-          <div  style="height:350px;" class="container slider-bg rounded-3 p-4 d-flex justify-content-center align-items-center">
+          <div id="bgChange"  style="height:350px;" class="container slider-bg rounded-3 p-4 d-flex justify-content-center align-items-center">
            <div class="content-inner">
             <h1>LET'S STAY IN TOUCH</h1>
             <p>Get updates on sales, specials and more</p>
@@ -259,5 +259,7 @@
     <!-- mian end -->
     <!-- bootstrap js bundle cdn -->
     <script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- manual script cdn -->
+    <script src="./assets/js/index.js"></script>
 </body>
 </html>
